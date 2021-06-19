@@ -1,0 +1,72 @@
+:root {
+  --darkpurple: #0a0c1b;
+  --purple: #1c1938;
+}
+html {
+  font-size: 62.5%;
+}
+Body {
+  font-size: 16px;
+  background-color: var(--darkpurple);
+  color: white;
+  font-family: "Cabin", sans-serif;
+}
+header {
+  font-size: 3.5rem;
+}
+header span {
+  color: rgb(211, 43, 211);
+}
+.photo1 {
+  filter: invert(0%) sepia(55%) saturate(5) hue-rotate(217deg) brightness(74%)
+    contrast(89%) blur(0.3px);
+}
+.container {
+  width: 107rem;
+  background-color: var(--purple);
+  display: flex;
+  text-align: left;
+  padding: 0 auto 0 auto;
+  margin: 8rem auto 10rem auto;
+  border-radius: 0.75rem;
+}
+.photo1 {
+  border-top-right-radius: 00.75rem;
+  border-bottom-right-radius: 00.75rem;
+}
+.ad {
+  margin: auto 9rem auto 7rem;
+  align-content: left;
+}
+.bs {
+  margin: 1rem 4rem 4rem 0;
+  line-height: 1.5;
+  font-weight: lighter;
+  font-size: 90%;
+  color: silver;
+}
+.stats {
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+  margin: 0 5rem 0 0;
+}
+.stat span {
+  font-weight: 700;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  color: white;
+}
+.stat h4 {
+  font-weight: 200;
+  font-variant: small-caps;
+  color: silver;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
